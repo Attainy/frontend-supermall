@@ -32,7 +32,7 @@
 <!-- Demo/메인 이미지 -->
 # Main Screen
 `데모영상`  https://youtu.be/R2bsDQv-r0o   
-`배포링크`  https://frontend-supermall.vercel.app
+`배포링크`  https://frontend-supermall.vercel.app (서버 내림)
 
 <div align="center">
   <img src="https://github.com/BE02-2st-project/frontend-supermall/assets/111291076/921a9844-0b15-4c9c-ba1f-840056e9834a" width="100%"/>
