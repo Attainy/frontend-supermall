@@ -63,6 +63,12 @@
 # Detail
 
 
+**1. 로그인 & 회원가입**  
+  * 네이버 로그인, 카카오 로그인 (OAuth) 구현  
+  * 아이디 저장 기능  
+  * 유효성 검사 : 모든 항목이 유효해야 Submit 버튼 활성화, 에러 메세지는 onBlur로, 에러 메세지 뜬 후 올바른 형식으로 입력 시 onChange로 에러 메세지 사라지도록 구현  
+  * 입력 항목 형식이 모두 맞아도 이용약관 필수 항목이 체크되어야 Submit 버튼 활성화됨  
+
 <!-- 로그인 & 회원가입 -->
 <div align="center">
 <table>
@@ -72,12 +78,6 @@
   </tr>
 </table>
 </div>
-
-**1. 로그인 & 회원가입**  
-  * 네이버 로그인, 카카오 로그인 (OAuth) 구현  
-  * 아이디 저장 기능  
-  * 유효성 검사 : 모든 항목이 유효해야 Submit 버튼 활성화, 에러 메세지는 onBlur로, 에러 메세지 뜬 후 올바른 형식으로 입력 시 onChange로 에러 메세지 사라지도록 구현  
-  * 입력 항목 형식이 모두 맞아도 이용약관 필수 항목이 체크되어야 Submit 버튼 활성화됨  
 
 ---
 
@@ -94,31 +94,21 @@
 
 ---
 
-<!-- 상품 리스트 & 상세 페이지 -->
-<div align="center">
-<table>
-  <tr>
-    <td><img src="https://github.com/BE02-2st-project/frontend-supermall/assets/111291076/a2971876-099a-460e-961e-7f55ac4ed9a1" alt="Image 1" height="300" /></td>
-    <td><img src="https://github.com/BE02-2st-project/frontend-supermall/assets/111291076/52eda04b-0085-4d44-9f2f-b780e92ceec4" alt="Image 2" height="300" /></td>
-  </tr>
-</table>
-</div>
 
-**4. 상품 리스트**  
+**4. 상품 리스트 & 상품 상세 페이지**  
    * 상품 리스트 - 필터, 페이지네이션  
    * 상품 컴포넌트 Hover시 다른 사진으로 전환  
    * slick 라이브러리로 상세 페이지의 상품 이미지 슬라이더 구현  
    * 바로구매 클릭시 로그인 되어있으면 주문확인 페이지로 이동되고, 로그인 전이면 로그인 Modal창 Open  
    * 장바구니 클릭시 장바구니에 상품이 담겨지고 [계속 쇼핑하기, 장바구니 보기] 확인창 Open  
 
----
 
-<!-- 장바구니 & 주문확인 페이지 -->
+<!-- 상품 리스트 & 상세 페이지 -->
 <div align="center">
 <table>
   <tr>
-    <td><img src="https://github.com/BE02-2st-project/frontend-supermall/assets/111291076/fa4150a0-ed34-4be9-97ce-f51835bf9c56" alt="Image 1" height="300" /></td>
-    <td><img src="https://github.com/BE02-2st-project/frontend-supermall/assets/111291076/e9c561c0-23f2-461e-9b69-193b233e906d" alt="Image 2" height="300" /></td>
+    <td><img src="https://github.com/BE02-2st-project/frontend-supermall/assets/111291076/a2971876-099a-460e-961e-7f55ac4ed9a1" alt="Image 1" height="300" /></td>
+    <td><img src="https://github.com/BE02-2st-project/frontend-supermall/assets/111291076/52eda04b-0085-4d44-9f2f-b780e92ceec4" alt="Image 2" height="300" /></td>
   </tr>
 </table>
 </div>
@@ -131,6 +121,23 @@
    * 주문 확인 페이지에서 주문 취소 가능  
 
 
+<!-- 장바구니 & 주문확인 페이지 -->
+<div align="center">
+<table>
+  <tr>
+    <td><img src="https://github.com/BE02-2st-project/frontend-supermall/assets/111291076/fa4150a0-ed34-4be9-97ce-f51835bf9c56" alt="Image 1" height="300" /></td>
+    <td><img src="https://github.com/BE02-2st-project/frontend-supermall/assets/111291076/e9c561c0-23f2-461e-9b69-193b233e906d" alt="Image 2" height="300" /></td>
+  </tr>
+</table>
+</div>
+
+
+---
+
+**6. 마이페이지 & 회원정보수정 페이지**  
+   * 마이페이지에 소메뉴 리스트(장바구니, 주문페이지 등)  
+   * 회원정보수정에서 react-daum-postcode 라이브러리로 주소 수정 
+
 <!-- 마이페이지 -->
 <div align="center">
 <table>
@@ -139,13 +146,7 @@
     <td><img src="https://github.com/BE02-2st-project/frontend-supermall/assets/111291076/6da11a9e-0c3d-4e56-a6fb-a143cd09f4a7" alt="Image 2" height="300" /></td>
   </tr>
 </table>
-</div>
-
----
-
-**6. 마이페이지 & 회원정보수정 페이지**  
-   * 마이페이지에 소메뉴 리스트(장바구니, 주문페이지 등)  
-   * 회원정보수정에서 react-daum-postcode 라이브러리로 주소 수정  
+</div> 
 
 
 <!-- 프로젝트 회고 -->
